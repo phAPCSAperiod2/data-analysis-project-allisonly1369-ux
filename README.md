@@ -66,12 +66,11 @@ UML_Diagram.png (or UML_Diagram.pdf)
 
 ## 🧩 Step 1 — Choose Your Dataset
 
-**Dataset Name:**  
-**Source / Link:**  
+**Dataset Name:**  World Indicators 2000
+**Source / Link:**  https://www.google.com/url?q=https://runestone.academy/ns/books/published/csawesome2/external/_static/datasets/WorldIndicators2000.csv&sa=D&source=editors&ust=1770745840323544&usg=AOvVaw3rBtD5dOE5pBEs56A48ONh 
 
 **What this dataset contains (2–3 sentences):**  
-____________________________________________________________________  
-____________________________________________________________________  
+This dataset contains global socioeconomic and demographic indicators for the year 2000, including data such as birth rate, C02 emissions, GDP, health expenditure, life expectancy, population structure, etc
 
 ---
 
@@ -80,8 +79,7 @@ ____________________________________________________________________
 Your guiding question should be something you can answer using your dataset.
 
 **My guiding question:**  
-____________________________________________________________________  
-____________________________________________________________________  
+What is the global average life expectancy across all countries?
 
 Examples:
 
@@ -145,8 +143,8 @@ You must write **at least two algorithms** to analyze your dataset.
 
 **Algorithms I will implement:**
 
-1. __________________________________________  
-2. __________________________________________  
+1. Find the country with the highest average life expectancy  
+2. Compute the overall average life expectancy across all countries  
 
 Optional extras:  
 - Sorting  
@@ -165,13 +163,8 @@ After analyzing your objects, print:
 - ✔ A clear answer to your guiding question  
 
 **My findings:**  
-____________________________________________________________________  
-____________________________________________________________________  
-____________________________________________________________________  
+Some countries in the dataset may have incomplete or inconsistent reporting, which can affect the accuracy of comparisons. Life expectancy data can also reflect political bias, differences in healthcare reporting, or missing values. These issues could skew rankings or averages, especially for smaller countries with limited data. While the dataset provides a useful snapshot of global conditions in 2000, the insights should be interpreted with awareness of these limitations.
 
-**My answer to the guiding question:**  
-____________________________________________________________________  
-____________________________________________________________________  
 
 ---
 
@@ -218,10 +211,7 @@ Write a short reflection (3–5 sentences):
 - How trustworthy are your insights?
 
 **My reflection:**  
-____________________________________________________________________  
-____________________________________________________________________  
-____________________________________________________________________  
-____________________________________________________________________  
+The dataset had issues like missing values and inconsistent data. It may be biased because some countries have more reliable data than others. Incomplete or inaccurate data can affect results by giving misleading averages or comparisons. Overall, the insights are useful for general trends but not fully reliable.
 
 ---
 

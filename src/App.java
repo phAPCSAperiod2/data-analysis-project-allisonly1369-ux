@@ -1,53 +1,32 @@
-import java.io.File;
-
 /**
- * Main application for the Data Analysis Mini‑Project.
- *
- * TODO:
- *  - Update the path to your dataset file
- *  - Read the CSV file using Scanner
- *  - Parse each row and extract the correct columns
- *  - Construct Data objects from each row
- *  - Store them in an array
- *  - Write methods to analyze the dataset (min, max, average, filters, etc.)
- *  - Print insights and answer your guiding question
- *  - Add Javadoc comments for any methods you create
+ * Main application class used to test the CountryData class.
  */
 public class App {
 
+    /**
+     * Entry point of the program.
+     *
+     * @param args command-line arguments
+     */
     public static void main(String[] args) {
 
-        // TODO: Update this with your CSV file path
-        File file = new File("data/your_dataset.csv");
+        // Create a sample CountryData object
+        CountryData data = new CountryData(
+                "Canada",
+                2020,
+                1640000000000.0,
+                38000000,
+                550.5,
+                84.0,
+                80.0
+        );
 
-        // TODO: Create an array of Data objects to store data
+        // Display object using toString()
+        System.out.println(data);
 
-
-        // TODO: Read file using Scanner
-        // - Skip header if needed
-        // - Loop through rows
-        // - Split each line by commas
-        // - Convert text to numbers when needed
-        // - Create new Data objects
-        // - Add to your array
-
-
-        // TODO: Call your analysis methods
-        // Example:
-        // double maxValue = findMaxValue(dataList);
-        // double average = computeAverageValue(dataList);
-
-
-        // TODO: Print insights
-        // - Number of rows loaded
-        // - Min, max, average, or any other findings
-        // - Final answer to your guiding question
-
-
-        // OPTIONAL TODO:
-        // Add user interaction:
-        // Ask the user what kind of analysis they want to see
+        // Access individual fields
+        System.out.println("Country: " + data.getCountry());
+        System.out.println("Year: " + data.getYear());
+        System.out.println("Average Life Expectancy: " + data.getAverageLifeExpectancy());
     }
-
-
 }
